@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin(BTC)",
+    "price": 31812.8,
+    "change": 10,
+    "tvl": 60000,
+    "picks": ["solana", "etherium", "binance"]
+  },
+  {
+    "id": "solana",
+    "name": "Solana(SOL)",
+    "price": 32.83,
+    "change": -12.23,
+    "tvl": 60000,
+    "picks": ["bitcoin", "etherium", "binance"]
+  },
+  {
+    "id": "etherium",
+    "name": "Etherium(ETH)",
+    "price": 1466.45,
+    "change": -11.93,
+    "tvl": 60000,
+    "picks": ["solana", "bitcoin", "binance"]
+  },
+  {
+    "id": "binance",
+    "name": "Binance USD (BUSD)",
+    "price": 1.0,
+    "change": 0.26,
+    "tvl": 60000,
+    "picks": ["solana", "etherium", "binance"]
+  },
+  {
+    "id": "shiba",
+    "name": "Shiba Inu(SHIBU)",
+    "price": 0.00000001948,
+    "change": -8.1,
+    "tvl": 60000,
+    "picks": ["solana", "etherium", "binance"]
+  }
+]
