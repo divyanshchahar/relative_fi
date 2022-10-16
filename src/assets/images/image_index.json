@@ -1,7 +1,0 @@
-[
-  { "id": "binance", "image": "./binance_logo.svg" },
-  { "id": "bitcoin", "image": "./bitcoin_logo.svg" },
-  { "id": "etherium", "image": "./etherium_logo.svg" },
-  { "id": "shiba", "image": "./shibainu_logo.svg" },
-  { "id": "solana", "image": "./solana_logo.svg" }
-]
