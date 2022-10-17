@@ -4,3 +4,20 @@
   box-sizing: border-box;
   background: rgba(20, 23, 43, 1);
 }
+
+:root {
+  /* DIMENSION */
+
+  /* coin-logo-container */
+  --p1: 25px;
+  --br1: 50px;
+}
+
+.coin-logo-container {
+  /* background-color: brown; */
+  padding: var(--p1);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
+}
