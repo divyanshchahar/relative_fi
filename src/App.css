@@ -33,7 +33,7 @@
   --fs6: 16px;
   --lh6: 31px;
 
-  /* positive */
+  /* positive negative */
   --fw7: 600;
   --fs7: 12px;
   --lh7: 31px;
@@ -168,4 +168,13 @@ body {
   font-size: var(--fs7);
   line-height: var(--lh7);
   color: #00ffa3;
+}
+
+.negative {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(---fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: #ff4d4d;
 }
