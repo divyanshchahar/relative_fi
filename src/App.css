@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background: rgba(20, 23, 43, 1);
   font-family: "Tomorrow", sans-serif;
 }
 
@@ -35,12 +34,17 @@
   --lh6: 31px;
 }
 
+body {
+  background: rgba(20, 23, 43, 1);
+}
+
 .coin-logo-container {
   padding: var(--p1);
   width: fit-content;
   height: fit-content;
   margin: auto;
   border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
+  order: 1;
 }
 
 .bitcoinfill {
