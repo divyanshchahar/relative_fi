@@ -81,3 +81,7 @@
 .property-tag {
   text-align: center;
 }
+
+.price-coantainer {
+  display: flex;
+}
