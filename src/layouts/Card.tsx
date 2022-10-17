@@ -61,6 +61,7 @@ function Card(props: AppProps) {
 
         {/* picks */}
         <PicksImageLoader prop={picks} />
+        <p className="property-tag">Popular Pick</p>
       </div>
     </div>
   );
