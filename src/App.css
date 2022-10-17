@@ -14,6 +14,11 @@
 
   /* coin-image */
   --w2: 50px;
+
+  /* picks-container */
+  --w3: 122px;
+  --h3: 40px;
+  --br3: 30px;
 }
 
 .coin-logo-container {
@@ -92,6 +97,7 @@
 
 .change {
   display: inline;
+  padding-left: 10px;
 }
 
 .tvl-container {
@@ -100,11 +106,11 @@
 
 .picks-container {
   display: flex;
-  width: 122px;
-  height: 40px;
+  width: var(--w3);
+  height: var(--h3);
   margin: auto;
   background: #14172b;
-  border-radius: 30px;
+  border-radius: var(--br3);
   justify-content: space-evenly;
 }
 
