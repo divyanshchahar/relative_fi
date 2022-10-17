@@ -11,10 +11,12 @@
   /* coin-logo-container */
   --p1: 25px;
   --br1: 50px;
+
+  /* coin-image */
+  --w2: 50px;
 }
 
 .coin-logo-container {
-  /* background-color: brown; */
   padding: var(--p1);
   width: fit-content;
   height: fit-content;
