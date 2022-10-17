@@ -21,3 +21,57 @@
   margin: auto;
   border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
 }
+
+.bitcoinfill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+
+  backdrop-filter: blur(50px);
+}
+
+.solanafill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(220, 31, 255, 0.1) 100%
+  );
+
+  backdrop-filter: blur(50px);
+}
+
+.etheriumfill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(237, 240, 244, 0.1) 100%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.binancefill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.shibafill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(228, 45, 4, 0.1) 100%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.coin-image {
+  display: block;
+  margin: auto;
+  width: var(--w2);
+  vertical-align: middle;
+}
