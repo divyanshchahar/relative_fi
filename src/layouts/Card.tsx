@@ -60,9 +60,7 @@ function Card(props: AppProps) {
         <p className="property-tag">TVL</p>
 
         {/* picks */}
-        <div className="picks-container">
-          <PicksImageLoader prop={picks} />
-        </div>
+        <PicksImageLoader prop={picks} />
       </div>
     </div>
   );
