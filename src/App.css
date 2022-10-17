@@ -28,6 +28,11 @@
 
   /* picks */
   --w5: 22px;
+
+  /* big text */
+  --fw6: 600;
+  --fs6: 16px;
+  --lh6: 31px;
 }
 
 .coin-logo-container {
@@ -132,4 +137,13 @@
 .picks {
   width: var(--w5);
   vertical-align: middle;
+}
+
+.bigtext {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(--fw6);
+  font-size: var(--fs6);
+  line-height: var(--lh6);
+  color: #ecf0ff;
 }
