@@ -25,6 +25,9 @@
   --fw4: 600;
   --fs4: 12px;
   --lh4: 31px;
+
+  /* picks */
+  --w5: 22px;
 }
 
 .coin-logo-container {
@@ -127,6 +130,6 @@
 }
 
 .picks {
-  width: 22px;
+  width: var(--w5);
   vertical-align: middle;
 }
