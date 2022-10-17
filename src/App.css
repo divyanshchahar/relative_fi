@@ -97,3 +97,18 @@
 .tvl-container {
   text-align: center;
 }
+
+.picks-container {
+  display: flex;
+  width: 122px;
+  height: 40px;
+  margin: auto;
+  background: #14172b;
+  border-radius: 30px;
+  justify-content: space-evenly;
+}
+
+.picks {
+  width: 22px;
+  vertical-align: middle;
+}
