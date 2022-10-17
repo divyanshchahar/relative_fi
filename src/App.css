@@ -184,4 +184,10 @@ body {
 
 .card {
   margin-top: var(--m8);
+  background-image: url("./assets/images/background_image.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 400px;
+  width: 290px;
 }
