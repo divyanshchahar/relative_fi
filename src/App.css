@@ -20,6 +20,11 @@
   --w3: 122px;
   --h3: 40px;
   --br3: 30px;
+
+  /* property-tag */
+  --fw4: 600;
+  --fs4: 12px;
+  --lh4: 31px;
 }
 
 .coin-logo-container {
@@ -85,6 +90,12 @@
 
 .property-tag {
   text-align: center;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(--fw4);
+  font-size: var(--fs4);
+  line-height: var(--lh4);
+  color: rgba(115, 123, 174, 1);
 }
 
 .price-coantainer {
