@@ -1,38 +1,187 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Tomorrow", sans-serif;
+}
+
+:root {
+  /* DIMENSION */
+
+  /* coin-logo-container */
+  --p1: 25px;
+  --br1: 50px;
+
+  /* coin-image */
+  --w2: 50px;
+
+  /* picks-container */
+  --w3: 122px;
+  --h3: 40px;
+  --br3: 30px;
+
+  /* property-tag */
+  --fw4: 600;
+  --fs4: 12px;
+  --lh4: 31px;
+
+  /* picks */
+  --w5: 22px;
+
+  /* big text */
+  --fw6: 600;
+  --fs6: 16px;
+  --lh6: 31px;
+
+  /* positive negative */
+  --fw7: 600;
+  --fs7: 12px;
+  --lh7: 31px;
+
+  /* card */
+  --m8: 50px;
+}
+
+body {
+  background: rgba(20, 23, 43, 1);
+}
+
+.coin-logo-container {
+  padding: var(--p1);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
+  order: 1;
+}
+
+.bitcoinfill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+
+  backdrop-filter: blur(50px);
+}
+
+.solanafill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(220, 31, 255, 0.1) 100%
+  );
+
+  backdrop-filter: blur(50px);
+}
+
+.etheriumfill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(237, 240, 244, 0.1) 100%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.binancefill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.shibafill {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(228, 45, 4, 0.1) 100%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.coin-image {
+  display: block;
+  margin: auto;
+  width: var(--w2);
+}
+
+.property-tag {
+  text-align: center;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(--fw4);
+  font-size: var(--fs4);
+  line-height: var(--lh4);
+  color: rgba(115, 123, 174, 1);
+}
+
+.price-coantainer {
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.price {
+  display: inline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.change {
+  display: inline;
+  padding-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tvl-container {
+  text-align: center;
+}
+
+.picks-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: var(--w3);
+  height: var(--h3);
+  margin: auto;
+  background: #14172b;
+  border-radius: var(--br3);
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.picks {
+  width: var(--w5);
+  vertical-align: middle;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bigtext {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(--fw6);
+  font-size: var(--fs6);
+  line-height: var(--lh6);
+  color: #ecf0ff;
+}
+
+.detail-container {
+  margin-top: 21.08px;
+}
+
+.positive {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(---fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: #00ffa3;
+}
+
+.negative {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(---fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: #ff4d4d;
+}
+
+.card {
+  margin-top: var(--m8);
 }

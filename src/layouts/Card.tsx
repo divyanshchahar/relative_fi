@@ -48,21 +48,20 @@ function Card(props: AppProps) {
 
         {/* price and change */}
         <div className="price-coantainer">
-          <div className="price">{priceValue}</div>
+          <div className="price bigtext">{priceValue}</div>
           <div className={`change ${changeClass}`}>{changeString}</div>
         </div>
 
         <p className="property-tag">Price</p>
 
         {/* tvl */}
-        <div className="tvl-container">{tvlValue}</div>
+        <div className="tvl-container bigtext">{tvlValue}</div>
 
         <p className="property-tag">TVL</p>
 
         {/* picks */}
-        <div className="picks-container">
-          <PicksImageLoader prop={picks} />
-        </div>
+        <PicksImageLoader prop={picks} />
+        <p className="property-tag">Popular Pick</p>
       </div>
     </div>
   );
