@@ -82,5 +82,14 @@
 }
 
 .price-coantainer {
-  display: flex;
+  display: block;
+  text-align: center;
+}
+
+.price {
+  display: inline;
+}
+
+.change {
+  display: inline;
 }
