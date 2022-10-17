@@ -32,6 +32,11 @@
   --fw6: 600;
   --fs6: 16px;
   --lh6: 31px;
+
+  /* positive */
+  --fw7: 600;
+  --fs7: 12px;
+  --lh7: 31px;
 }
 
 body {
@@ -154,4 +159,13 @@ body {
 
 .detail-container {
   margin-top: 21.08px;
+}
+
+.positive {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(---fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: #00ffa3;
 }
