@@ -151,3 +151,7 @@ body {
   line-height: var(--lh6);
   color: #ecf0ff;
 }
+
+.detail-container {
+  margin-top: 21.08px;
+}
