@@ -75,7 +75,6 @@
   display: block;
   margin: auto;
   width: var(--w2);
-  vertical-align: middle;
 }
 
 .property-tag {
