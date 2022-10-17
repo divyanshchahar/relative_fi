@@ -37,6 +37,9 @@
   --fw7: 600;
   --fs7: 12px;
   --lh7: 31px;
+
+  /* card */
+  --m8: 50px;
 }
 
 body {
@@ -177,4 +180,8 @@ body {
   font-size: var(--fs7);
   line-height: var(--lh7);
   color: #ff4d4d;
+}
+
+.card {
+  margin-top: var(--m8);
 }
