@@ -41,10 +41,18 @@
   --fw8: 600;
   --fs8: 12px;
   --lh8: 31px;
+
+  /* COLORS */
+  --C1: rgba(20, 23, 43, 1); /* general-background */
+  --C2: rgba(115, 123, 174, 1); /* font for property-value-tags */
+  --c3: rgba(20, 23, 43, 1); /* background for cutouts */
+  --c4: rgba(236, 240, 255, 1); /* font for big text */
+  --c5: rgba(0, 255, 163, 1); /* font for positive change */
+  --c6: rgba(255, 77, 77, 1); /* font for negative change */
 }
 
 body {
-  background: rgba(20, 23, 43, 1);
+  background: var(--C1);
 }
 
 .coin-logo-container-1 {
@@ -128,7 +136,7 @@ body {
   font-weight: var(--fw5);
   font-size: var(--fs5);
   line-height: var(--lh5);
-  color: rgba(115, 123, 174, 1);
+  color: var(--C2);
 }
 
 .price-coantainer {
@@ -153,7 +161,7 @@ body {
   width: var(--w4);
   height: var(--h4);
   margin: auto;
-  background: #14172b;
+  background: var(--c3);
   border-radius: var(--br4);
   justify-content: space-evenly;
 }
@@ -169,7 +177,7 @@ body {
   font-weight: var(--fw7);
   font-size: var(--fs7);
   line-height: var(--lh7);
-  color: #ecf0ff;
+  color: var(--c4);
 }
 
 .text-container-1 {
@@ -178,13 +186,13 @@ body {
   height: 40px;
   text-align: center;
   align-items: center;
-  background: #14172b;
+  background: var(--c3);
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: var(--fw7);
   font-size: var(--fs7);
   line-height: var(--lh7);
-  color: #ecf0ff;
+  color: var(--c4);
   margin: auto;
   border-radius: 17px 17px 17px 17px;
 }
@@ -195,13 +203,13 @@ body {
   height: 40px;
   align-items: center;
   justify-content: center;
-  background: #14172b;
+  background: var(--c3);
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: var(--fw7);
   font-size: var(--fs7);
   line-height: var(--lh7);
-  color: #ecf0ff;
+  color: var(--c4);
   margin: auto;
   border-radius: 17px 17px 17px 17px;
 }
@@ -212,13 +220,13 @@ body {
   height: 40px;
   align-items: center;
   justify-content: flex-end;
-  background: #14172b;
+  background: var(--c3);
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: var(--fw7);
   font-size: var(--fs7);
   line-height: var(--lh7);
-  color: #ecf0ff;
+  color: var(--c4);
   margin: auto;
   border-radius: 17px 17px 17px 17px;
 }
@@ -241,7 +249,7 @@ body {
   font-weight: var(---fw7);
   font-size: var(--fs8);
   line-height: var(--lh8);
-  color: #00ffa3;
+  color: var(--c5);
 }
 
 .negative {
@@ -250,7 +258,7 @@ body {
   font-weight: var(---fw7);
   font-size: var(--fs8);
   line-height: var(--lh8);
-  color: #ff4d4d;
+  color: var(--c6);
 }
 
 .card {
