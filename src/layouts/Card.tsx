@@ -47,15 +47,15 @@ function Card(props: AppProps) {
         <p className="property-tag">{name}</p>
 
         {/* price and change */}
-        <div className="price-coantainer">
-          <div className="price bigtext">{priceValue}</div>
-          <div className={`change ${changeClass}`}>{changeString}</div>
+        <div className="text-container-1">
+          <div className="price">{priceValue}</div>
+          <div className={`small-text ${changeClass}`}>{changeString}</div>
         </div>
 
         <p className="property-tag">Price</p>
 
         {/* tvl */}
-        <div className="tvl-container bigtext">{tvlValue}</div>
+        <div className="text-container-2">{tvlValue}</div>
 
         <p className="property-tag">TVL</p>
 
