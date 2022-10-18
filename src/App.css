@@ -52,6 +52,7 @@ body {
   height: fit-content;
   margin: auto;
   border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
+  /* border: 1px solid white; */
 }
 
 .bitcoinfill {
@@ -190,6 +191,31 @@ body {
   color: #ecf0ff;
   margin: auto;
   border-radius: 17px 17px 17px 17px;
+}
+
+.text-container-long {
+  display: flex;
+  width: 242px;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-end;
+  background: #14172b;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(--fw6);
+  font-size: var(--fs6);
+  line-height: var(--lh6);
+  color: #ecf0ff;
+  margin: auto;
+  border-radius: 17px 17px 17px 17px;
+}
+
+.price-long {
+  margin-right: 5px;
+}
+
+.small-text-long {
+  margin-right: 5px;
 }
 
 .detail-container {

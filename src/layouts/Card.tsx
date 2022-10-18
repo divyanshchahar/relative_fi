@@ -3,6 +3,7 @@ import ChangeStringHandler from "../utils/ChangeStringHandler";
 import ValueBuilder from "../utils/ValueBuilder";
 import CoinImageLoader from "../components/CoinImageLoader";
 import PicksImageLoader from "../components/PicksImageLoader";
+import LongStringHandler from "../components/LongStringHandler";
 
 type AppProps = {
   id: string;
@@ -29,11 +30,6 @@ function Card(props: AppProps) {
   const priceValue = ValueBuilder(price);
   const tvlValue = ValueBuilder(tvl);
 
-  let formatter = Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD",
-  });
-
   return (
     <div className="card" key={id}>
       {/* image of coin */}
@@ -47,10 +43,7 @@ function Card(props: AppProps) {
         <p className="property-tag">{name}</p>
 
         {/* price and change */}
-        <div className="text-container-1">
-          <div className="price">{priceValue}</div>
-          <div className={`small-text ${changeClass}`}>{changeString}</div>
-        </div>
+        <LongStringHandler props={[price, change]} />
 
         <p className="property-tag">Price</p>
 
