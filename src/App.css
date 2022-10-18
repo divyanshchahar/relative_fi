@@ -52,7 +52,7 @@ body {
   height: fit-content;
   margin: auto;
   border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .bitcoinfill {
