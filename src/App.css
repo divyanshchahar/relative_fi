@@ -8,35 +8,39 @@
 :root {
   /* DIMENSION */
 
-  /* coin-logo-container */
+  /* coin-logo-container-1 */
   --p1: 25px;
   --br1: 50px;
 
+  /* coin-logo-container-2 */
+  --p2: 24px;
+  --br2: 48px;
+
   /* coin-image */
-  --w2: 50px;
+  --w3: 50px;
 
   /* picks-container */
-  --w3: 122px;
-  --h3: 40px;
-  --br3: 30px;
+  --w4: 122px;
+  --h4: 40px;
+  --br4: 30px;
 
   /* property-tag */
-  --fw4: 600;
-  --fs4: 12px;
-  --lh4: 31px;
+  --fw5: 600;
+  --fs5: 12px;
+  --lh5: 31px;
 
   /* picks */
-  --w5: 22px;
+  --w6: 22px;
 
   /* big text */
-  --fw6: 600;
-  --fs6: 16px;
-  --lh6: 31px;
+  --fw7: 600;
+  --fs7: 16px;
+  --lh7: 31px;
 
   /* positive negative */
-  --fw7: 600;
-  --fs7: 12px;
-  --lh7: 31px;
+  --fw8: 600;
+  --fs8: 12px;
+  --lh8: 31px;
 }
 
 body {
@@ -57,11 +61,11 @@ body {
 }
 
 .coin-logo-container-2 {
-  padding: 24px;
+  padding: var(--p2);
   width: fit-content;
   height: fit-content;
   margin: auto;
-  border-radius: 48px 48px 48px 48px;
+  border-radius: var(--br2) var(--br2) var(--br2) var(--br2);
 }
 
 .bitcoinfill {
@@ -114,16 +118,16 @@ body {
 .coin-image {
   display: block;
   margin: auto;
-  width: var(--w2);
+  width: var(--w3);
 }
 
 .property-tag {
   text-align: center;
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw4);
-  font-size: var(--fs4);
-  line-height: var(--lh4);
+  font-weight: var(--fw5);
+  font-size: var(--fs5);
+  line-height: var(--lh5);
   color: rgba(115, 123, 174, 1);
 }
 
@@ -146,25 +150,25 @@ body {
 
 .picks-container {
   display: flex;
-  width: var(--w3);
-  height: var(--h3);
+  width: var(--w4);
+  height: var(--h4);
   margin: auto;
   background: #14172b;
-  border-radius: var(--br3);
+  border-radius: var(--br4);
   justify-content: space-evenly;
 }
 
 .picks {
-  width: var(--w5);
+  width: var(--w6);
   vertical-align: middle;
 }
 
 .bigtext {
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
   color: #ecf0ff;
 }
 
@@ -177,9 +181,9 @@ body {
   background: #14172b;
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
   color: #ecf0ff;
   margin: auto;
   border-radius: 17px 17px 17px 17px;
@@ -194,9 +198,9 @@ body {
   background: #14172b;
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
   color: #ecf0ff;
   margin: auto;
   border-radius: 17px 17px 17px 17px;
@@ -211,9 +215,9 @@ body {
   background: #14172b;
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
   color: #ecf0ff;
   margin: auto;
   border-radius: 17px 17px 17px 17px;
@@ -235,8 +239,8 @@ body {
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: var(---fw7);
-  font-size: var(--fs7);
-  line-height: var(--lh7);
+  font-size: var(--fs8);
+  line-height: var(--lh8);
   color: #00ffa3;
 }
 
@@ -244,8 +248,8 @@ body {
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: var(---fw7);
-  font-size: var(--fs7);
-  line-height: var(--lh7);
+  font-size: var(--fs8);
+  line-height: var(--lh8);
   color: #ff4d4d;
 }
 
