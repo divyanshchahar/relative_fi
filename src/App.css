@@ -279,3 +279,27 @@ body {
   width: var(--w9);
   margin: 50px auto 0px;
 }
+
+/* 
+##################
+# TOUCH DISPLAYS #
+################## 
+*/
+
+@media screen and (min-width: 429px) {
+  :root {
+    --g10: 35px;
+    --p10: 25px;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    padding: 25px;
+  }
+}

@@ -12,7 +12,7 @@ import trading_data from "../assets/data/trading_data.json";
 
 function CardsList() {
   return (
-    <div>
+    <div className="card-container">
       {trading_data.map((item) => {
         return (
           <Card
