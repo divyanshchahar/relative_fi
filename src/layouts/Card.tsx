@@ -33,8 +33,10 @@ function Card(props: AppProps) {
   return (
     <div className="card" key={id}>
       {/* image of coin */}
-      <div className={`coin-logo-container ${id}fill`}>
-        <CoinImageLoader prop={id} />
+      <div className="coin-logo-container-1">
+        <div className={`coin-logo-container-2 ${id}fill`}>
+          <CoinImageLoader prop={id} />
+        </div>
       </div>
 
       {/* DETAILS OF COINS */}

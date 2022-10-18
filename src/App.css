@@ -5,54 +5,84 @@
   font-family: "Tomorrow", sans-serif;
 }
 
+/* ################# */
+/* # MOBILE LAYOUT # */
+/* ################# */
+
 :root {
   /* DIMENSION */
 
-  /* coin-logo-container */
+  /* coin-logo-container-1 */
   --p1: 25px;
   --br1: 50px;
 
+  /* coin-logo-container-2 */
+  --p2: 24px;
+  --br2: 48px;
+
   /* coin-image */
-  --w2: 50px;
+  --w3: 50px;
 
   /* picks-container */
-  --w3: 122px;
-  --h3: 40px;
-  --br3: 30px;
+  --w4: 122px;
+  --h4: 40px;
+  --br4: 30px;
 
   /* property-tag */
-  --fw4: 600;
-  --fs4: 12px;
-  --lh4: 31px;
+  --fw5: 600;
+  --fs5: 12px;
+  --lh5: 31px;
 
   /* picks */
-  --w5: 22px;
+  --w6: 22px;
 
   /* big text */
-  --fw6: 600;
-  --fs6: 16px;
-  --lh6: 31px;
+  --fw7: 600;
+  --fs7: 16px;
+  --lh7: 31px;
+  --br7: 17px;
 
   /* positive negative */
-  --fw7: 600;
-  --fs7: 12px;
-  --lh7: 31px;
+  --fw8: 600;
+  --fs8: 12px;
+  --lh8: 31px;
 
   /* card */
-  --m8: 50px;
+  --h9: 400px;
+  --w9: 290px;
+
+  /* COLORS */
+  --C1: rgba(20, 23, 43, 1); /* general-background */
+  --C2: rgba(115, 123, 174, 1); /* font for property-value-tags */
+  --c3: rgba(20, 23, 43, 1); /* background for cutouts */
+  --c4: rgba(236, 240, 255, 1); /* font for big text */
+  --c5: rgba(0, 255, 163, 1); /* font for positive change */
+  --c6: rgba(255, 77, 77, 1); /* font for negative change */
 }
 
 body {
-  background: rgba(20, 23, 43, 1);
+  background: var(--C1);
 }
 
-.coin-logo-container {
-  padding: var(--p1);
+.coin-logo-container-1 {
+  padding: 1px;
   width: fit-content;
   height: fit-content;
   margin: auto;
   border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
-  /* border: 1px solid white; */
+  background-image: linear-gradient(
+    180deg,
+    rgba(236, 240, 255, 0.1) 0%,
+    rgba(59, 63, 87, 0) 100%
+  );
+}
+
+.coin-logo-container-2 {
+  padding: var(--p2);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border-radius: var(--br2) var(--br2) var(--br2) var(--br2);
 }
 
 .bitcoinfill {
@@ -105,17 +135,7 @@ body {
 .coin-image {
   display: block;
   margin: auto;
-  width: var(--w2);
-}
-
-.property-tag {
-  text-align: center;
-  font-family: "Tomorrow";
-  font-style: normal;
-  font-weight: var(--fw4);
-  font-size: var(--fs4);
-  line-height: var(--lh4);
-  color: rgba(115, 123, 174, 1);
+  width: var(--w3);
 }
 
 .price-coantainer {
@@ -137,26 +157,36 @@ body {
 
 .picks-container {
   display: flex;
-  width: var(--w3);
-  height: var(--h3);
+  width: var(--w4);
+  height: var(--h4);
   margin: auto;
-  background: #14172b;
-  border-radius: var(--br3);
+  background: var(--c3);
+  border-radius: var(--br4);
   justify-content: space-evenly;
 }
 
+.property-tag {
+  text-align: center;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(--fw5);
+  font-size: var(--fs5);
+  line-height: var(--lh5);
+  color: var(--C2);
+}
+
 .picks {
-  width: var(--w5);
+  width: var(--w6);
   vertical-align: middle;
 }
 
 .bigtext {
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
-  color: #ecf0ff;
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: var(--c4);
 }
 
 .text-container-1 {
@@ -165,15 +195,15 @@ body {
   height: 40px;
   text-align: center;
   align-items: center;
-  background: #14172b;
+  background: var(--c3);
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
-  color: #ecf0ff;
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: var(--c4);
   margin: auto;
-  border-radius: 17px 17px 17px 17px;
+  border-radius: var(--br7) var(--br7) var(--br7) var(--br7);
 }
 
 .text-container-2 {
@@ -182,15 +212,15 @@ body {
   height: 40px;
   align-items: center;
   justify-content: center;
-  background: #14172b;
+  background: var(--c3);
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
-  color: #ecf0ff;
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: var(--c4);
   margin: auto;
-  border-radius: 17px 17px 17px 17px;
+  border-radius: var(--br7) var(--br7) var(--br7) var(--br7);
 }
 
 .text-container-long {
@@ -199,15 +229,15 @@ body {
   height: 40px;
   align-items: center;
   justify-content: flex-end;
-  background: #14172b;
+  background: var(--c3);
   font-family: "Tomorrow";
   font-style: normal;
-  font-weight: var(--fw6);
-  font-size: var(--fs6);
-  line-height: var(--lh6);
-  color: #ecf0ff;
+  font-weight: var(--fw7);
+  font-size: var(--fs7);
+  line-height: var(--lh7);
+  color: var(--c4);
   margin: auto;
-  border-radius: 17px 17px 17px 17px;
+  border-radius: var(--br7) var(--br7) var(--br7) var(--br7);
 }
 
 .price-long {
@@ -226,27 +256,26 @@ body {
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: var(---fw7);
-  font-size: var(--fs7);
-  line-height: var(--lh7);
-  color: #00ffa3;
+  font-size: var(--fs8);
+  line-height: var(--lh8);
+  color: var(--c5);
 }
 
 .negative {
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: var(---fw7);
-  font-size: var(--fs7);
-  line-height: var(--lh7);
-  color: #ff4d4d;
+  font-size: var(--fs8);
+  line-height: var(--lh8);
+  color: var(--c6);
 }
 
 .card {
-  margin-top: var(--m8);
   background-image: url("./assets/images/background_image.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  height: 400px;
-  width: 290px;
+  height: var(--h9);
+  width: var(--w9);
   margin: 50px auto 0px;
 }
