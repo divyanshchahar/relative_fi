@@ -37,9 +37,6 @@
   --fw7: 600;
   --fs7: 12px;
   --lh7: 31px;
-
-  /* card */
-  --m8: 1000px;
 }
 
 body {
@@ -253,7 +250,6 @@ body {
 }
 
 .card {
-  margin-top: var(--m8);
   background-image: url("./assets/images/background_image.svg");
   background-repeat: no-repeat;
   background-size: contain;
