@@ -299,7 +299,26 @@ body {
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 35px;
-    padding: 25px;
+    gap: var(--g10);
+    padding: var(--p10);
+  }
+}
+
+/* 
+#####################
+# COMPUTER DISPLAYS #
+##################### */
+
+@media screen and (min-width: 1025px) {
+  :root {
+    --g10: 70px;
+    --p10: 50px;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--g10);
+    padding: var(--p10);
   }
 }
