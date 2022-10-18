@@ -43,6 +43,10 @@
   --fs8: 12px;
   --lh8: 31px;
 
+  /* card */
+  --h9: 400px;
+  --w9: 290px;
+
   /* COLORS */
   --C1: rgba(20, 23, 43, 1); /* general-background */
   --C2: rgba(115, 123, 174, 1); /* font for property-value-tags */
@@ -267,7 +271,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  height: 400px;
-  width: 290px;
+  height: var(--h9);
+  width: var(--w9);
   margin: 50px auto 0px;
 }
