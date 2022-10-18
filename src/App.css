@@ -39,20 +39,32 @@
   --lh7: 31px;
 
   /* card */
-  --m8: 50px;
+  --m8: 1000px;
 }
 
 body {
   background: rgba(20, 23, 43, 1);
 }
 
-.coin-logo-container {
-  padding: var(--p1);
+.coin-logo-container-1 {
+  padding: 1px;
   width: fit-content;
   height: fit-content;
   margin: auto;
   border-radius: var(--br1) var(--br1) var(--br1) var(--br1);
-  /* border: 1px solid white; */
+  background-image: linear-gradient(
+    180deg,
+    rgba(236, 240, 255, 0.1) 0%,
+    rgba(59, 63, 87, 0) 100%
+  );
+}
+
+.coin-logo-container-2 {
+  padding: 24px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border-radius: 48px 48px 48px 48px;
 }
 
 .bitcoinfill {
