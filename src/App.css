@@ -36,6 +36,7 @@
   --fw7: 600;
   --fs7: 16px;
   --lh7: 31px;
+  --br7: 17px;
 
   /* positive negative */
   --fw8: 600;
@@ -129,16 +130,6 @@ body {
   width: var(--w3);
 }
 
-.property-tag {
-  text-align: center;
-  font-family: "Tomorrow";
-  font-style: normal;
-  font-weight: var(--fw5);
-  font-size: var(--fs5);
-  line-height: var(--lh5);
-  color: var(--C2);
-}
-
 .price-coantainer {
   display: block;
   text-align: center;
@@ -164,6 +155,16 @@ body {
   background: var(--c3);
   border-radius: var(--br4);
   justify-content: space-evenly;
+}
+
+.property-tag {
+  text-align: center;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: var(--fw5);
+  font-size: var(--fs5);
+  line-height: var(--lh5);
+  color: var(--C2);
 }
 
 .picks {
@@ -194,7 +195,7 @@ body {
   line-height: var(--lh7);
   color: var(--c4);
   margin: auto;
-  border-radius: 17px 17px 17px 17px;
+  border-radius: var(--br7) var(--br7) var(--br7) var(--br7);
 }
 
 .text-container-2 {
@@ -211,7 +212,7 @@ body {
   line-height: var(--lh7);
   color: var(--c4);
   margin: auto;
-  border-radius: 17px 17px 17px 17px;
+  border-radius: var(--br7) var(--br7) var(--br7) var(--br7);
 }
 
 .text-container-long {
@@ -228,7 +229,7 @@ body {
   line-height: var(--lh7);
   color: var(--c4);
   margin: auto;
-  border-radius: 17px 17px 17px 17px;
+  border-radius: var(--br7) var(--br7) var(--br7) var(--br7);
 }
 
 .price-long {
