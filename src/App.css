@@ -299,7 +299,7 @@ body {
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 35px;
-    padding: 25px;
+    gap: var(--g10);
+    padding: var(--p10);
   }
 }
