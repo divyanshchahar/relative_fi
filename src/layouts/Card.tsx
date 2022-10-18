@@ -30,11 +30,6 @@ function Card(props: AppProps) {
   const priceValue = ValueBuilder(price);
   const tvlValue = ValueBuilder(tvl);
 
-  let formatter = Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD",
-  });
-
   return (
     <div className="card" key={id}>
       {/* image of coin */}
