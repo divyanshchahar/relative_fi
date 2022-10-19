@@ -64,6 +64,7 @@
 
   /* EXTRA PARAMS */
   --m_e_1: calc(5.3vw); /* 0.05 * var(--h9) */
+  --m_e_2: 1.3vw; /* 0.017 * var(--w9) */
 }
 
 body {
@@ -247,11 +248,11 @@ body {
 }
 
 .price-long {
-  margin-right: 5px;
+  margin-right: var(--m_e_2);
 }
 
 .small-text-long {
-  margin-right: 5px;
+  margin-right: var(--m_e_2);
 }
 
 .detail-container {
