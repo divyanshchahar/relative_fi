@@ -61,6 +61,9 @@
   --c4: rgba(236, 240, 255, 1); /* font for big text */
   --c5: rgba(0, 255, 163, 1); /* font for positive change */
   --c6: rgba(255, 77, 77, 1); /* font for negative change */
+
+  /* EXTRA PARAMS */
+  --m_e_1: calc(5.3vw); /* 0.05 * var(--h9) */
 }
 
 body {
@@ -252,7 +255,7 @@ body {
 }
 
 .detail-container {
-  margin-top: 21.08px;
+  margin-top: var(--m_e_1);
 }
 
 .positive {
