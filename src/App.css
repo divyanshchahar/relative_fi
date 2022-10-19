@@ -48,8 +48,9 @@
   --lh8: 31px;
 
   /* card */
-  --h9: 400px;
-  --w9: 290px;
+  --h9: 106.6vw; /* indepedent parameter */
+  --w9: 77.33vw; /* indepedent parameter */
+  --m9: calc(0.125 * var(--h9));
 
   /* COLORS */
   --C1: rgba(20, 23, 43, 1); /* general-background */
@@ -277,7 +278,9 @@ body {
   background-position: bottom;
   height: var(--h9);
   width: var(--w9);
-  margin: 50px auto 0px;
+  margin-top: var(--m9);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 
