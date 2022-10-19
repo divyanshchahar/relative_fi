@@ -50,7 +50,7 @@
   /* card */
   --h9: 106.6vw; /* indepedent parameter */
   --w9: 77.33vw; /* indepedent parameter */
-  --m9: calc(0.125 * var(--h9));
+  --m9: calc(0.125 * var(--h9)); /* indepedent parameter */
 
   /* COLORS */
   --C1: rgba(20, 23, 43, 1); /* general-background */
