@@ -297,8 +297,65 @@ body {
 
 @media screen and (min-width: 429px) {
   :root {
-    --g10: 35px;
-    --p10: 25px;
+    /* DIMENSION */
+
+    /* coin-logo-container-1 */
+    --p1: 4.306vw; /* 0.125 * var(--h9) */
+    --br1: 8.612vw; /* 2 * var(--p1)*/
+
+    /* coin-logo-container-2 */
+    --p2: 2.075vw; /* 0.083 * var(--w9) */
+    --br2: 4.15vw; /* 0.166 * var(--w9) */
+
+    /* coin-image */
+    --w3: 4.306vw; /* 0.125 * var(--h9) */
+
+    /* picks-container */
+    --w4: 10.525vw; /* 0.421 * var(--w9) */
+    --h4: 3.445vw; /* 0.1 * var(--h9) */
+    --br4: 6.89vw; /* 2 * var(--h4) */
+
+    /* property-tag */
+    --fw5: 600;
+    --fs5: 1.034vw; /* 0.03 * var(--h9) */
+    --lh5: 2.584vw; /* 0.075 * var(--h9) */
+
+    /* picks */
+    --w6: 1.895vw; /* 0.055 * var(--h9) */
+
+    /* text-container-1 */
+    --fw7: 600;
+    --fs7: 1.378vw; /* 0.04 * var(--h9) */
+    --lh7: 2.584vw; /* 0.075 * var(--h9) */
+    --w7: 20.75vw; /* 0.83 * var(--w9) */
+    --h7: 3.45vw; /* 0.1 * var(--h9) */
+    --br7: 6.89vw; /* 2 * var(--h7) */
+
+    /* positive negative */
+    --fw8: 600;
+    --fs8: 1.034vw; /* 0.03 * var(--h9) */
+    --lh8: 2.584vw; /* 0.075 * var(--h9) */
+
+    /* card */
+    --h9: 34.45vw; /* indepedent parameter */
+    --w9: 25vw; /* indepedent parameter */
+    /* --m9: 13.1325vw; */
+
+    /* COLORS */
+    --C1: rgba(20, 23, 43, 1); /* general-background */
+    --C2: rgba(115, 123, 174, 1); /* font for property-value-tags */
+    --c3: rgba(20, 23, 43, 1); /* background for cutouts */
+    --c4: rgba(236, 240, 255, 1); /* font for big text */
+    --c5: rgba(0, 255, 163, 1); /* font for positive change */
+    --c6: rgba(255, 77, 77, 1); /* font for negative change */
+
+    /* EXTRA PARAMS */
+    --m_e_1: 1.723vw; /* 0.05 * var(--h9) */
+    --m_e_2: 0.425vw; /* 0.017 * var(--w9) */
+
+    /* card-container */
+    --g10: 4.892vw;
+    --p10: 4.892vw;
   }
 
   .card {
@@ -308,6 +365,8 @@ body {
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
     gap: var(--g10);
     padding: var(--p10);
   }
