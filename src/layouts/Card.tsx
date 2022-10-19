@@ -1,5 +1,4 @@
 // IMPORTING COMPONENETS
-import ChangeStringHandler from "../utils/ChangeStringHandler";
 import ValueBuilder from "../utils/ValueBuilder";
 import CoinImageLoader from "../components/CoinImageLoader";
 import PicksImageLoader from "../components/PicksImageLoader";
