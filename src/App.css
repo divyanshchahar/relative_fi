@@ -17,8 +17,8 @@
   --br1: calc(2 * var(--p1));
 
   /* coin-logo-container-2 */
-  --p2: 24px;
-  --br2: 48px;
+  --p2: 24px; /* requires attemtion */
+  --br2: calc(var(--p2) * 2);
 
   /* coin-image */
   --w3: calc(0.125 * var(--h9));
