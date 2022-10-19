@@ -5,7 +5,7 @@ type AppProp = {
 };
 
 /**
- * Uploads Images of crypto assets
+ * Loads Images of crypto assets
  *
  * @param prop Array of crypto asset ids
  * @returns Images of crypto assets
