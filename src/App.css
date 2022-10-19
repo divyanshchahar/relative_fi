@@ -34,7 +34,7 @@
   --lh5: 31px;
 
   /* picks */
-  --w6: 22px;
+  --w6: calc(0.5 * var(--w3));
 
   /* text-container-1 */
   --fw7: 600;
