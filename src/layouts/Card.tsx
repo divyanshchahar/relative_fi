@@ -24,10 +24,6 @@ type AppProps = {
 function Card(props: AppProps) {
   const { id, name, price, change, tvl, picks } = props;
 
-  const [changeClass, changeString]: [string, string] =
-    ChangeStringHandler(change);
-
-  const priceValue = ValueBuilder(price);
   const tvlValue = ValueBuilder(tvl);
 
   return (
