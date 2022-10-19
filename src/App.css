@@ -24,9 +24,9 @@
   --w3: calc(0.125 * var(--h9));
 
   /* picks-container */
-  --w4: 122px;
-  --h4: 40px;
-  --br4: 30px;
+  --w4: calc(0.421 * var(--w9));
+  --h4: calc(0.1 * var(--h9));
+  --br4: calc(2 * var(--h4));
 
   /* property-tag */
   --fw5: 600;
