@@ -14,7 +14,7 @@ type AppProps = {
 };
 
 /**
- * Renders information for crypto asset
+ * Renders renders a list of crypto assets
  *
  * @param props Detais of Crypto Trade
  * @returns JSX elements to render all the trading information of a crypto asset

@@ -5,9 +5,9 @@ import Card from "./Card";
 import trading_data from "../assets/data/trading_data.json";
 
 /**
- * Renders cards
+ * Renders individual crypto assets
  *
- * @returns
+ * @returns `Cards.tsx` componenet for each crypto asset
  */
 
 function CardsList() {

@@ -1,5 +1,5 @@
 /**
- *
+ * Returns a string generated from the price of the asset
  *
  * @param args Numeric Value value that needs to be formatted as currency string
  * @returns String formatted as USD currency notion
