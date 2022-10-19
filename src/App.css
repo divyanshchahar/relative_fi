@@ -17,7 +17,7 @@
   --br1: calc(2 * var(--p1));
 
   /* coin-logo-container-2 */
-  --p2: 24px; /* requires attention */
+  --p2: calc(0.45 * var(--w3));
   --br2: calc(var(--p2) * 2);
 
   /* coin-image */
