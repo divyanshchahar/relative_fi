@@ -13,46 +13,46 @@
   /* DIMENSION */
 
   /* coin-logo-container-1 */
-  --p1: calc(0.125 * var(--h9));
-  --br1: calc(2 * var(--p1));
+  --p1: 13.325vw; /* 0.125 * var(--h9) */
+  --br1: 26.65vw; /* 2 * var(--p1)*/
 
   /* coin-logo-container-2 */
-  --p2: calc(0.45 * var(--w3));
-  --br2: calc(var(--p2) * 2);
+  --p2: 6.416vw; /* 0.083 * var(--w9) */
+  --br2: 12.832vw; /* 0.166 * var(--w9) */
 
   /* coin-image */
-  --w3: calc(0.125 * var(--h9));
+  --w3: 13.325vw; /* 0.125 * var(--h9) */
 
   /* picks-container */
-  --w4: calc(0.421 * var(--w9));
-  --h4: calc(0.1 * var(--h9));
-  --br4: calc(2 * var(--h4));
+  --w4: 32.543vw; /* 0.421 * var(--w9) */
+  --h4: 10.66vw; /* 0.1 * var(--h9) */
+  --br4: 21.32vw; /* 2 * var(--h4) */
 
   /* property-tag */
   --fw5: 600;
-  --fs5: 3.2vw;
-  --lh5: 8.267vw;
+  --fs5: 3.198vw; /* 0.03 * var(--h9) */
+  --lh5: 7.995vw; /* 0.075 * var(--h9) */
 
   /* picks */
-  --w6: calc(0.5 * var(--w3));
+  --w6: 5.863vw; /* 0.055 * var(--h9) */
 
   /* text-container-1 */
   --fw7: 600;
-  --fs7: 4.267vw;
-  --lh7: 8.267vw;
-  --w7: calc(0.83 * var(--w9));
-  --h7: calc(0.1 * var(--h9));
-  --br7: calc(2 * var(--h7));
+  --fs7: 4.264vw; /* 0.04 * var(--h9) */
+  --lh7: 7.995vw; /* 0.075 * var(--h9) */
+  --w7: 64.183vw; /* 0.83 * var(--w9) */
+  --h7: 10.66vw; /* 0.1 * var(--h9) */
+  --br7: 21.32vw; /* 2 * var(--h7) */
 
   /* positive negative */
   --fw8: 600;
-  --fs8: 3.2vw;
-  --lh8: 8.267vw;
+  --fs8: 3.198vw; /* 0.03 * var(--h9) */
+  --lh8: 7.995vw; /* 0.075 * var(--h9) */
 
   /* card */
   --h9: 106.6vw; /* indepedent parameter */
   --w9: 77.33vw; /* indepedent parameter */
-  --m9: calc(0.125 * var(--h9)); /* indepedent parameter */
+  --m9: 13.1325vw; /* indepedent parameter */
 
   /* COLORS */
   --C1: rgba(20, 23, 43, 1); /* general-background */
@@ -63,8 +63,8 @@
   --c6: rgba(255, 77, 77, 1); /* font for negative change */
 
   /* EXTRA PARAMS */
-  --m_e_1: calc(5.3vw); /* 0.05 * var(--h9) */
-  --m_e_2: 1.3vw; /* 0.017 * var(--w9) */
+  --m_e_1: 5.33vw; /* 0.05 * var(--h9) */
+  --m_e_2: 1.315vw; /* 0.017 * var(--w9) */
 }
 
 body {
