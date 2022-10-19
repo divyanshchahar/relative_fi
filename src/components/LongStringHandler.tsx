@@ -5,6 +5,13 @@ type AppProp = {
   props: number[];
 };
 
+/**
+ * Returns JSX with specific classes for long and short string length.
+ *
+ * @param props
+ * @returns
+ */
+
 function LongStringHandler(props: AppProp) {
   const args = props.props;
   const priceValue = ValueBuilder(args[0]);
