@@ -7,7 +7,6 @@ type AppProp = {
 
 function LongStringHandler(props: AppProp) {
   const args = props.props;
-  //   const vls = { prop };
   const priceValue = ValueBuilder(args[0]);
   const [changeClass, changeValue] = ChangeStringHandler(args[1]);
 
