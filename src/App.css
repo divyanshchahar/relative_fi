@@ -21,7 +21,7 @@
   --br2: 48px;
 
   /* coin-image */
-  --w3: 50px;
+  --w3: calc(0.125 * var(--h9));
 
   /* picks-container */
   --w4: 122px;
