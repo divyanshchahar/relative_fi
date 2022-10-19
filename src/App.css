@@ -40,7 +40,9 @@
   --fw7: 600;
   --fs7: 16px;
   --lh7: 31px;
-  --br7: 17px;
+  --w7: calc(0.83 * var(--w9));
+  --h7: calc(0.1 * var(--h9));
+  --br7: calc(2 * var(--h7));
 
   /* positive negative */
   --fw8: 600;
@@ -192,8 +194,8 @@ body {
 
 .text-container-1 {
   display: block;
-  width: 242px;
-  height: 40px;
+  width: var(--w7);
+  height: var(--h7);
   text-align: center;
   align-items: center;
   background: var(--c3);
