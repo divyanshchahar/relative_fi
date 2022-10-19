@@ -13,8 +13,8 @@
   /* DIMENSION */
 
   /* coin-logo-container-1 */
-  --p1: 25px;
-  --br1: 50px;
+  --p1: calc(0.125 * var(--h9));
+  --br1: calc(2 * var(--p1));
 
   /* coin-logo-container-2 */
   --p2: 24px;
