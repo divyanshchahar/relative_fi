@@ -211,8 +211,8 @@ body {
 
 .text-container-2 {
   display: flex;
-  width: 242px;
-  height: 40px;
+  width: var(--w7);
+  height: var(--h7);
   align-items: center;
   justify-content: center;
   background: var(--c3);
