@@ -228,8 +228,8 @@ body {
 
 .text-container-long {
   display: flex;
-  width: 242px;
-  height: 40px;
+  width: var(--w7);
+  height: var(--h7);
   align-items: center;
   justify-content: flex-end;
   background: var(--c3);
