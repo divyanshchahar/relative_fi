@@ -38,8 +38,8 @@
 
   /* text-container-1 */
   --fw7: 600;
-  --fs7: 16px;
-  --lh7: 31px;
+  --fs7: 4.267vw;
+  --lh7: 8.267vw;
   --w7: calc(0.83 * var(--w9));
   --h7: calc(0.1 * var(--h9));
   --br7: calc(2 * var(--h7));
