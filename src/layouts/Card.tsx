@@ -1,5 +1,4 @@
 // IMPORTING COMPONENETS
-import ChangeStringHandler from "../utils/ChangeStringHandler";
 import ValueBuilder from "../utils/ValueBuilder";
 import CoinImageLoader from "../components/CoinImageLoader";
 import PicksImageLoader from "../components/PicksImageLoader";
@@ -15,7 +14,7 @@ type AppProps = {
 };
 
 /**
- * Renders information for crypto asset
+ * Renders renders a list of crypto assets
  *
  * @param props Detais of Crypto Trade
  * @returns JSX elements to render all the trading information of a crypto asset
@@ -24,10 +23,6 @@ type AppProps = {
 function Card(props: AppProps) {
   const { id, name, price, change, tvl, picks } = props;
 
-  const [changeClass, changeString]: [string, string] =
-    ChangeStringHandler(change);
-
-  const priceValue = ValueBuilder(price);
   const tvlValue = ValueBuilder(tvl);
 
   return (

@@ -13,43 +13,46 @@
   /* DIMENSION */
 
   /* coin-logo-container-1 */
-  --p1: 25px;
-  --br1: 50px;
+  --p1: 13.325vw; /* 0.125 * var(--h9) */
+  --br1: 26.65vw; /* 2 * var(--p1)*/
 
   /* coin-logo-container-2 */
-  --p2: 24px;
-  --br2: 48px;
+  --p2: 6.416vw; /* 0.083 * var(--w9) */
+  --br2: 12.832vw; /* 0.166 * var(--w9) */
 
   /* coin-image */
-  --w3: 50px;
+  --w3: 13.325vw; /* 0.125 * var(--h9) */
 
   /* picks-container */
-  --w4: 122px;
-  --h4: 40px;
-  --br4: 30px;
+  --w4: 32.543vw; /* 0.421 * var(--w9) */
+  --h4: 10.66vw; /* 0.1 * var(--h9) */
+  --br4: 21.32vw; /* 2 * var(--h4) */
 
   /* property-tag */
   --fw5: 600;
-  --fs5: 12px;
-  --lh5: 31px;
+  --fs5: 3.198vw; /* 0.03 * var(--h9) */
+  --lh5: 7.995vw; /* 0.075 * var(--h9) */
 
   /* picks */
-  --w6: 22px;
+  --w6: 5.863vw; /* 0.055 * var(--h9) */
 
-  /* big text */
+  /* text-container-1 */
   --fw7: 600;
-  --fs7: 16px;
-  --lh7: 31px;
-  --br7: 17px;
+  --fs7: 4.264vw; /* 0.04 * var(--h9) */
+  --lh7: 7.995vw; /* 0.075 * var(--h9) */
+  --w7: 64.183vw; /* 0.83 * var(--w9) */
+  --h7: 10.66vw; /* 0.1 * var(--h9) */
+  --br7: 21.32vw; /* 2 * var(--h7) */
 
   /* positive negative */
   --fw8: 600;
-  --fs8: 12px;
-  --lh8: 31px;
+  --fs8: 3.198vw; /* 0.03 * var(--h9) */
+  --lh8: 7.995vw; /* 0.075 * var(--h9) */
 
   /* card */
-  --h9: 400px;
-  --w9: 290px;
+  --h9: 106.6vw; /* indepedent parameter */
+  --w9: 77.33vw; /* indepedent parameter */
+  --m9: 13.1325vw; /* indepedent parameter */
 
   /* COLORS */
   --C1: rgba(20, 23, 43, 1); /* general-background */
@@ -58,6 +61,10 @@
   --c4: rgba(236, 240, 255, 1); /* font for big text */
   --c5: rgba(0, 255, 163, 1); /* font for positive change */
   --c6: rgba(255, 77, 77, 1); /* font for negative change */
+
+  /* EXTRA PARAMS */
+  --m_e_1: 5.33vw; /* 0.05 * var(--h9) */
+  --m_e_2: 1.315vw; /* 0.017 * var(--w9) */
 }
 
 body {
@@ -65,7 +72,7 @@ body {
 }
 
 .coin-logo-container-1 {
-  padding: 1px;
+  /* padding: 1px; */
   width: fit-content;
   height: fit-content;
   margin: auto;
@@ -191,8 +198,8 @@ body {
 
 .text-container-1 {
   display: block;
-  width: 242px;
-  height: 40px;
+  width: var(--w7);
+  height: var(--h7);
   text-align: center;
   align-items: center;
   background: var(--c3);
@@ -208,8 +215,8 @@ body {
 
 .text-container-2 {
   display: flex;
-  width: 242px;
-  height: 40px;
+  width: var(--w7);
+  height: var(--h7);
   align-items: center;
   justify-content: center;
   background: var(--c3);
@@ -225,8 +232,8 @@ body {
 
 .text-container-long {
   display: flex;
-  width: 242px;
-  height: 40px;
+  width: var(--w7);
+  height: var(--h7);
   align-items: center;
   justify-content: flex-end;
   background: var(--c3);
@@ -241,15 +248,15 @@ body {
 }
 
 .price-long {
-  margin-right: 5px;
+  margin-right: var(--m_e_2);
 }
 
 .small-text-long {
-  margin-right: 5px;
+  margin-right: var(--m_e_2);
 }
 
 .detail-container {
-  margin-top: 21.08px;
+  margin-top: var(--m_e_1);
 }
 
 .positive {
@@ -277,7 +284,9 @@ body {
   background-position: bottom;
   height: var(--h9);
   width: var(--w9);
-  margin: 50px auto 0px;
+  margin-top: var(--m9);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 
@@ -288,8 +297,65 @@ body {
 
 @media screen and (min-width: 429px) {
   :root {
-    --g10: 35px;
-    --p10: 25px;
+    /* DIMENSION */
+
+    /* coin-logo-container-1 */
+    --p1: 4.306vw; /* 0.125 * var(--h9) */
+    --br1: 8.612vw; /* 2 * var(--p1)*/
+
+    /* coin-logo-container-2 */
+    --p2: 2.075vw; /* 0.083 * var(--w9) */
+    --br2: 4.15vw; /* 0.166 * var(--w9) */
+
+    /* coin-image */
+    --w3: 4.306vw; /* 0.125 * var(--h9) */
+
+    /* picks-container */
+    --w4: 10.525vw; /* 0.421 * var(--w9) */
+    --h4: 3.445vw; /* 0.1 * var(--h9) */
+    --br4: 6.89vw; /* 2 * var(--h4) */
+
+    /* property-tag */
+    --fw5: 600;
+    --fs5: 1.034vw; /* 0.03 * var(--h9) */
+    --lh5: 2.584vw; /* 0.075 * var(--h9) */
+
+    /* picks */
+    --w6: 1.895vw; /* 0.055 * var(--h9) */
+
+    /* text-container-1 */
+    --fw7: 600;
+    --fs7: 1.378vw; /* 0.04 * var(--h9) */
+    --lh7: 2.584vw; /* 0.075 * var(--h9) */
+    --w7: 20.75vw; /* 0.83 * var(--w9) */
+    --h7: 3.45vw; /* 0.1 * var(--h9) */
+    --br7: 6.89vw; /* 2 * var(--h7) */
+
+    /* positive negative */
+    --fw8: 600;
+    --fs8: 1.034vw; /* 0.03 * var(--h9) */
+    --lh8: 2.584vw; /* 0.075 * var(--h9) */
+
+    /* card */
+    --h9: 34.45vw; /* indepedent parameter */
+    --w9: 25vw; /* indepedent parameter */
+    /* --m9: 13.1325vw; */
+
+    /* COLORS */
+    --C1: rgba(20, 23, 43, 1); /* general-background */
+    --C2: rgba(115, 123, 174, 1); /* font for property-value-tags */
+    --c3: rgba(20, 23, 43, 1); /* background for cutouts */
+    --c4: rgba(236, 240, 255, 1); /* font for big text */
+    --c5: rgba(0, 255, 163, 1); /* font for positive change */
+    --c6: rgba(255, 77, 77, 1); /* font for negative change */
+
+    /* EXTRA PARAMS */
+    --m_e_1: 1.723vw; /* 0.05 * var(--h9) */
+    --m_e_2: 0.425vw; /* 0.017 * var(--w9) */
+
+    /* card-container */
+    --g10: 4.892vw;
+    --p10: 4.892vw;
   }
 
   .card {
@@ -299,6 +365,8 @@ body {
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
     gap: var(--g10);
     padding: var(--p10);
   }
@@ -311,13 +379,90 @@ body {
 
 @media screen and (min-width: 1025px) {
   :root {
-    --g10: 70px;
-    --p10: 50px;
+    /* DIMENSION */
+
+    /* coin-logo-container-1 */
+    --p1: 2.869vw; /* 0.125 * var(--h9) */
+    --br1: 5.738vw; /* 2 * var(--p1)*/
+
+    /* coin-logo-container-2 */
+    --p2: 1.383vw; /* 0.083 * var(--w9) */
+    --br2: 2.766vw; /* 0.166 * var(--w9) */
+
+    /* coin-image */
+    --w3: 2.869vw; /* 0.125 * var(--h9) */
+
+    /* picks-container */
+    --w4: 7.014vw; /* 0.421 * var(--w9) */
+    --h4: 2.295vw; /* 0.1 * var(--h9) */
+    --br4: 4.59vw; /* 2 * var(--h4) */
+
+    /* property-tag */
+    --fw5: 600;
+    --fs5: 0.689vw; /* 0.03 * var(--h9) */
+    --lh5: 1.721vw; /* 0.075 * var(--h9) */
+
+    /* picks */
+    --w6: 1.262vw; /* 0.055 * var(--h9) */
+
+    /* text-container-1 */
+    --fw7: 600;
+    --fs7: 0.918vw; /* 0.04 * var(--h9) */
+    --lh7: 1.721vw; /* 0.075 * var(--h9) */
+    --w7: 13.828vw; /* 0.83 * var(--w9) */
+    --h7: 2.95vw; /* 0.1 * var(--h9) */
+    --br7: 5.9vw; /* 2 * var(--h7) */
+
+    /* positive negative */
+    --fw8: 600;
+    --fs8: 0.689vw; /* 0.03 * var(--h9) */
+    --lh8: 1.721; /* 0.075 * var(--h9) */
+
+    /* card */
+    --h9: 22.95vw; /* indepedent parameter */
+    --w9: 16.66vw; /* indepedent parameter */
+    /* --m9: 13.1325vw; */
+
+    /* COLORS */
+    --C1: rgba(20, 23, 43, 1); /* general-background */
+    --C2: rgba(115, 123, 174, 1); /* font for property-value-tags */
+    --c3: rgba(20, 23, 43, 1); /* background for cutouts */
+    --c4: rgba(236, 240, 255, 1); /* font for big text */
+    --c5: rgba(0, 255, 163, 1); /* font for positive change */
+    --c6: rgba(255, 77, 77, 1); /* font for negative change */
+
+    /* EXTRA PARAMS */
+    --m_e_1: 1.418vw; /* 0.05 * var(--h9) */
+    --m_e_2: 0.283vw; /* 0.017 * var(--w9) */
+
+    /* card-container */
+    --g10: 1.629vw; /* 0.071 * var(--h9) */
+    --p10: 1.629vw; /* 0.071 * var(--h9) */
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .small-text {
+    position: relative;
+    left: 73%;
+    bottom: 35%;
+    width: 7ch;
+  }
+
+  .price {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 10%;
   }
 
   .card-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
     gap: var(--g10);
     padding: var(--p10);
   }
