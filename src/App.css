@@ -379,13 +379,90 @@ body {
 
 @media screen and (min-width: 1025px) {
   :root {
-    --g10: 70px;
-    --p10: 50px;
+    /* DIMENSION */
+
+    /* coin-logo-container-1 */
+    --p1: 2.869vw; /* 0.125 * var(--h9) */
+    --br1: 5.738vw; /* 2 * var(--p1)*/
+
+    /* coin-logo-container-2 */
+    --p2: 1.383vw; /* 0.083 * var(--w9) */
+    --br2: 2.766vw; /* 0.166 * var(--w9) */
+
+    /* coin-image */
+    --w3: 2.869vw; /* 0.125 * var(--h9) */
+
+    /* picks-container */
+    --w4: 7.014vw; /* 0.421 * var(--w9) */
+    --h4: 2.295vw; /* 0.1 * var(--h9) */
+    --br4: 4.59vw; /* 2 * var(--h4) */
+
+    /* property-tag */
+    --fw5: 600;
+    --fs5: 0.689vw; /* 0.03 * var(--h9) */
+    --lh5: 1.721vw; /* 0.075 * var(--h9) */
+
+    /* picks */
+    --w6: 1.262vw; /* 0.055 * var(--h9) */
+
+    /* text-container-1 */
+    --fw7: 600;
+    --fs7: 0.918vw; /* 0.04 * var(--h9) */
+    --lh7: 1.721vw; /* 0.075 * var(--h9) */
+    --w7: 13.828vw; /* 0.83 * var(--w9) */
+    --h7: 2.95vw; /* 0.1 * var(--h9) */
+    --br7: 5.9vw; /* 2 * var(--h7) */
+
+    /* positive negative */
+    --fw8: 600;
+    --fs8: 0.689vw; /* 0.03 * var(--h9) */
+    --lh8: 1.721; /* 0.075 * var(--h9) */
+
+    /* card */
+    --h9: 22.95vw; /* indepedent parameter */
+    --w9: 16.66vw; /* indepedent parameter */
+    /* --m9: 13.1325vw; */
+
+    /* COLORS */
+    --C1: rgba(20, 23, 43, 1); /* general-background */
+    --C2: rgba(115, 123, 174, 1); /* font for property-value-tags */
+    --c3: rgba(20, 23, 43, 1); /* background for cutouts */
+    --c4: rgba(236, 240, 255, 1); /* font for big text */
+    --c5: rgba(0, 255, 163, 1); /* font for positive change */
+    --c6: rgba(255, 77, 77, 1); /* font for negative change */
+
+    /* EXTRA PARAMS */
+    --m_e_1: 1.418vw; /* 0.05 * var(--h9) */
+    --m_e_2: 0.283vw; /* 0.017 * var(--w9) */
+
+    /* card-container */
+    --g10: 1.629vw; /* 0.071 * var(--h9) */
+    --p10: 1.629vw; /* 0.071 * var(--h9) */
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .small-text {
+    position: relative;
+    left: 73%;
+    bottom: 35%;
+    width: 7ch;
+  }
+
+  .price {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 10%;
   }
 
   .card-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
     gap: var(--g10);
     padding: var(--p10);
   }
